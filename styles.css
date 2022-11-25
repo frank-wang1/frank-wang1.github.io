@@ -1,0 +1,159 @@
+body{
+    font-family: sans-serif;
+    margin: 0px;
+    background: rgb(234, 234, 255);
+}
+
+nav{
+    height: 90px;
+    background: rgb(80, 80, 197);
+}
+
+nav div{
+    padding-top: 5px;
+}
+
+nav li{
+    margin-right: 6px;
+    margin-top: 30px;
+    display: inline-block;
+}
+
+nav ul{
+    margin-right: 40px;
+    margin-top: -80px;
+    float: right;
+}
+
+nav a{
+    color: white;
+    font-size: 18px;
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.name{
+    color: white;
+    font-size: 39px;
+    line-height: 80px;
+    margin-left: 120px;
+    font-weight: bold;
+}
+
+.hello{
+    text-align: center;
+    font-family: Georgia;
+    font-size: 80px;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+.hello-rest{
+    font-family: Georgia;
+    text-align: center;
+    font-size: 25px;
+    margin-top: -30px;
+}
+
+.my-projects{
+    font-family: Georgia;
+    font-size: 25px;
+    margin-left: 30px;
+    margin-top: 65px;
+    color: #25315d;
+    text-underline-offset: 10px;
+    text-decoration: underline #000000 dashed;
+}
+
+.photo-title{
+    display: inline-block;
+    font-family: Georgia;
+    margin-left: 26.5%;
+    margin-bottom: 0;
+}
+
+.parking-title{
+    display: inline-block;
+    font-family: Georgia;
+    margin-left: 320px;
+    margin-bottom: 30px;
+}
+
+.insta{
+    margin-left: 25%;
+    height: 150px;
+    width: 150px;
+}
+
+.parking{
+    margin-left: 350px;
+    height: 150px;
+    width: 150px; 
+}
+
+.insta-list{
+    width: 350px;
+    font-family: Georgia;
+    margin-left: 220px;
+    margin-top: 40px;
+}
+
+.insta-list li{
+    margin-bottom: 25px;
+}
+
+.parking-list{
+    width: 350px;
+    font-family: Georgia;
+    margin-left: 150px;
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+
+.parking-list li{
+    margin-bottom: 25px;
+}
+
+.insta-parent{
+    display: inline-block;
+}
+
+.parking-parent{
+    display: inline-block;
+}
+
+.github-insta{
+    margin-left: 378px;
+    padding-bottom: 50px;
+    font-family: Georgia;
+}
+
+.github-parking{
+    margin-left: 270px;
+    font-family: Georgia;
+}
+
+a.selected, nav a:hover{
+    background: rgb(139, 139, 244);
+}
+
+.resume{
+    text-align: center;
+}
+
+.resume-link{
+    position: relative;
+    margin-top: -200px;
+    bottom: 330px;
+    font-family: Georgia;
+    left: 150px;
+    font-size: 20px;
+}
+
+.bio{
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 150px;
+}
